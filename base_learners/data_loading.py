@@ -1,4 +1,5 @@
 import os
+import natsort
 import pandas as pd
 
 
@@ -7,7 +8,7 @@ def load_from_folder(path):
     List filenames from the path and load them.
     """    
     data_list = []
-    for filename in sorted(os.listdir(path), key=len):
+    for filename in natsort.natsorted(os.listdir(path)):
         #print(filename)
         data = pd.read_csv(path + filename)
         data_list.append(data)
