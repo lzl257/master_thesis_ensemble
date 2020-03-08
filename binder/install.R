@@ -1,0 +1,5 @@
+install.packages('devtools')
+install.packages('latex2exp')
+library(devtools)
+install_github('susanathey/MCPanel')
+install.packages('rjson')

@@ -1,0 +1,14 @@
+channels:
+  - conda-forge
+dependencies:
+  - python=>3.6
+  - numpy
+  - pandas
+  - jupyter
+  - pip:
+    - seaborn
+    - sklearn
+    - matplotlib
+    - jupyter_contrib_nbextensions
+    - scipy
+    - jupyter
