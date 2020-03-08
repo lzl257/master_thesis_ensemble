@@ -12,3 +12,4 @@ dependencies:
     - jupyter_contrib_nbextensions
     - scipy==1.2.0
     - jupyter
+    - natsort
