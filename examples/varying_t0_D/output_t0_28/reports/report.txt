@@ -1,0 +1,69 @@
+Senario D
+
+With nonnegative constraint, leave-one-out:
+
+Ensemble:
+
+Mean of ate: 20.0819950206151
+Standard deviation of ate: 0.9293883515102435
+Sum of average treatment effect: 40.1639900412302
+
+Bias^2: [0.00118279 0.01679574]
+
+Variance: [0.82276882 0.90575317]
+
+MSE: [0.8239516  0.92254891] (mean 0.8732502569097758)
+
+
+SC:
+
+Mean of ate: 19.982552298472896
+Standard deviation of ate: 1.2347551473381606
+Sum of average treatment effect: 39.96510459694579
+
+Bias^2: [0.0055036  0.00154377]
+
+Variance: [1.56841187 1.48144872]
+
+MSE: [1.57391547 1.48299249] (mean 1.5284539773251515)
+
+
+MC:
+
+Mean of ate: 20.087992026991024
+Standard deviation of ate: 1.4148104999179028
+Sum of average treatment effect: 40.17598405398205
+
+Bias^2: [0.00025712 0.02558373]
+
+Variance: [2.21590578 1.79835911]
+
+MSE: [2.2161629  1.82394283] (mean 2.0200528651649674)
+
+
+Lasso:
+
+Mean of ate: 20.191440965219925
+Standard deviation of ate: 1.2670074936584652
+Sum of average treatment effect: 40.38288193043985
+
+Bias^2: [0.01574412 0.06625804]
+
+Variance: [1.60864713 1.60197231]
+
+MSE: [1.62439125 1.66823035] (mean 1.6463108017031942)
+
+
+MDD:
+
+Mean of ate: 20.31044430274314
+Standard deviation of ate: 1.6275852792079668
+Sum of average treatment effect: 40.62088860548628
+
+Bias^2: [0.06427105 0.13496164]
+
+Variance: [2.76214921 2.53828329]
+
+MSE: [2.82642026 2.67324493] (mean 2.7498325949964846)
+
+
