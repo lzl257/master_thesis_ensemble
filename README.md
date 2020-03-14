@@ -35,9 +35,9 @@ Since the environment for running code has already been created by [Binder](http
 
 `src`: Contains generated .csv data for senario A, B, C, D. JSON file stores the status selected in notebook 00.
 
-`base_learners`: Stores functions for loading data and bias-variance decomposition. Also stores the counterfactual outcomes estimated by MC.
+`base_learners`: Stores the functions for loading data and bias-variance decomposition. Also stores the counterfactual outcomes estimated by MC.
 
-`meta_learner/ensemble_mc`: Stores leave-one-out pseudo counterfactual outcomes for all control units estimated by MC.
+`meta_learner/ensemble_mc`: Stores the leave-one-out pseudo counterfactual outcomes for all control units estimated by MC.
 
 `visualization`: Contains all functions and class used for plotting.
 
@@ -45,4 +45,4 @@ Since the environment for running code has already been created by [Binder](http
 
 `examples`: An independent directory that stores the outputs used in the thesis.
 
-`binder`: Contains configuration files for the docker. No need to change.
+`binder`: Contains the configuration files for the docker. No need to change.
