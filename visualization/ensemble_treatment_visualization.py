@@ -78,7 +78,11 @@ class BoxPlot:
     """Class for visualization 5.
     
     Attributes:
-        estimation_list (list): [estimated array, true treatment effect, model name]
+        estimation_dict (list): {'model1': [estimated array, true value, model_name]}
+        T (int): Total periods.
+        T0 (int): Treatment starts at T0 + 1.
+        nonnegative (Boolean): True for imposing nonnegative constraint.
+        senario (string): 'A', 'B', 'C', 'D'
     """
     
     def __init__(self, estimation_dict, T, T0, nonnegative, senario):
