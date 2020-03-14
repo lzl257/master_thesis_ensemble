@@ -1,5 +1,4 @@
-# Estimating Treatment Effects Using Ensemble Methods in Panel Data Context 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/lzl257/master_thesis_ensemble/master?filepath=00%20Select%20one%20senario.ipynb)
+# Estimating Treatment Effects Using Ensemble Methods in Panel Data Context [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/lzl257/master_thesis_ensemble/master?filepath=00%20Select%20one%20senario.ipynb) 
 
 ## Introduction
 
