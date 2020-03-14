@@ -1,7 +1,5 @@
 # Estimating Treatment Effects Using Ensemble Methods in Panel Data Context [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/lzl257/master_thesis_ensemble/master?filepath=00%20Select%20one%20senario.ipynb) 
 
-## Introduction
-
 This repository contains the codes I have used for simulation study in my master thesis. There are four main parts in sequence: data generating process --> estimating counterfactual outcomes of base learners --> training metalearner --> visualization and reporting.
 Python and R are used for analysis.
 
